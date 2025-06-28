@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Rubik,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.full{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.top{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    
+}
+.links a{
+    height: 100%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.581);
+}
+.flight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hotels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.trains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.holidays{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.forex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.insurance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.right{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.book{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.581);
+}
+.manage{
+    font-size: 12px;
+}
+.trips{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+.ls{
+    display: flex;
+    align-items: center;
+    height: 65%;
+    width: 170px;
+    border: 2px solid rgb(34, 118, 227);
+    border-radius: 10px;
+    color: rgb(34, 118, 227);
+    font-size: 14px;
+    font-weight: 600;
+    gap: 10px;
+
+}
+
+
+
+.flight:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+.hotels:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+.trains:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+.cabs:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+.bus:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+.holidays:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}.forex:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+.insurance:hover{
+    color: rgb(34, 118, 227);
+    padding-bottom:5px ;
+    border-bottom: 4px solid rgb(34, 118, 227);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+/* middle part */
+.middle{
+    width: 100%;
+    height: calc(100%-70px);
+    position: relative;
+}
+.curve{
+    display: flex;
+    width: 100vw;
+    height: 260px;
+    background-color: rgb(255, 109, 56);
+    border-radius: 0 0 50% 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.curve h2{
+    color: white;
+    margin: 20px;
+    position: absolute;
+    top:0;
+}
+.box-search{
+    display: flex;
+    background-color: white;
+    width: 75%;
+    flex-direction: column;
+    height: 100%;
+    top: 80px;
+    justify-content: space-around;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 20px;
+    padding: 20px 54px 54px 54px;
+    margin: 0px 0px;
+}
+.radios{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    font-weight: 500;
+    width: 40%;
+    color: grey;
+}
+
+label{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    border-radius: 20px;
+    width: 120px;
+}
+.one:hover{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+.in{
+    position: relative;
+}
+#rad{
+    background-color: rgba(0, 106, 255, 0.145);
+    color: rgb(34, 118, 227);
+
+}
+.forms{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.in input{
+    border: none;
+    height: 50px;
+    width: 230px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 0.6;
+}
+.date input{
+    border: none;
+    height: 50px;
+    width: 130px;
+}
+.drop select{
+    border: none;
+    height: 50px;
+    width: 180px;
+}
+fieldset {
+  margin: 20px;
+  padding: 0 10px 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+  border-color: rgba(128, 128, 128, 0.156);
+}
+input{
+    outline: none;
+}
+fieldset:focus-within{
+    border-color: black;
+}
+.checkboxes{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    z-index: 0;
+    height: 70px;
+    width: 100%;
+    position: absolute ;
+    justify-content: center;
+    background: linear-gradient(135deg, rgb(233, 252, 243) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+.benifit{
+    padding: 6px;
+    background: linear-gradient(90deg, rgb(135, 52, 243), rgb(59, 65, 255));    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    align-items: center;
+    color: white;
+
+}
+.sp{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    font-size: large;
+}
+
+
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 200px;    
+    padding: 10px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-weight: 500;
+}
+.extra{
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+}
+.search{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 109, 56);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+    left: 41%;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+}
+.bottom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 250px;
+}
+.bottom-box{
+    display: flex;
+    background-color: white;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    height: fit-content;
+    margin: 30px 0px;
+
+}
+.bottom-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.bottom-links{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.bottom-left{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 8px;
+}
+.bottom-right{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+
+}
+.bottom-left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+li{
+    padding: 14px 20px 13px;
+    border: 1px solid rgb(228, 228, 228);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(113, 113, 113);
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    gap: 10px;
+    list-style: none;
+}
+li:active{
+    font-size: 14px;
+    background: rgb(229, 243, 255);
+    color: rgb(34, 118, 227);
+    font-weight: 500;
+    border: 1px solid rgb(34, 118, 227);
+} 
+
+.bottom-right a{
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: blue;
+    
+}
+.bottom-image{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    gap: 20px;
+}
+.image-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+.image-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 15px;
+}
+.aarrows{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 30px;
+    position: absolute;
+    left:23.8%;
+    width: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 15px;
+    justify-content: center;
+    align-self: center;
+}
+.image-box h5{
+    color: grey;
+}

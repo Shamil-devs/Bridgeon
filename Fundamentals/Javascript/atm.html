@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    <input type="number" name="" id="deposit"><button id="" onclick="depositing()">Deposit</button>
+    <input type="number" name="" id="withdraw"><button id="" onclick="withdrawing()">Withdraw</button>
+    <button id="balance" onclick="show()">Show Balance</button><p id="show_balance"></p>
+    <script>
+
+       let balance = 0
+       function depositing(){
+            let amount=parseFloat(document.getElementById('deposit').value)
+            if(amount!=0){
+                alert(amount+" Has Deposited")
+                balance+=amount
+            }
+            else{
+                alert("Please add amount")
+            }
+       }
+       function withdrawing(){
+        let withamount=parseFloat(document.getElementById('withdraw').value)
+            if(withamount<=balance){
+                alert(withamount+" Has withdrawed")
+                balance-=withamount
+            }
+            else{
+                alert("Insufficient balance")
+            }
+       }
+       function show(){
+            document.getElementById('show_balance').textContent=balance
+       }
+    </script>
+</body>
+</html>

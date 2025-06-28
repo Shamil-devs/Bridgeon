@@ -1,0 +1,51 @@
+  html,body{
+    margin:0;
+    padding:0;
+  }
+  .full {
+    width: 100vw;
+    height: 100vh;
+    background: #6592CF;
+  }
+  .box-div{
+   display:flex;
+    width:100%;
+    height:100%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+  }
+  .box{
+    height:70px;
+    width:181px;
+    display:flex;
+    gap:40px;
+    background: #EEB850;
+  }
+  .top-box{
+    height:80px;
+    width:70px;
+    margin: auto;
+    margin-top:-5px;
+    background: #EEB850;
+  }
+  .middle-box1{
+    height:80px;
+    width:70px;
+    margin-top:-5px;
+    background: #EEB850;
+  }
+  .middle-box2{
+    height:80px;
+    width:70px;
+    margin-top:-5px;
+    background: #EEB850;
+  }
+  .bottom-box{
+        height:80px;
+    width:70px;
+    margin: auto;
+    margin-top:-5px;
+    background: #EEB850;
+  }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="Media/aotlogo.png" sizes="128x128">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <style>
+        input{
+            border-radius: 10px;
+            border: 2px solid green;
+
+        }
+        input::placeholder{
+            color: green;
+            
+        }
+
+        textarea{
+            border-radius: 10px;
+            border: 2px solid green;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            background-color: #04AA6D; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 50px;
+
+        }
+        .btn{
+            display: flex;
+            flex-direction: row; 
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        .fm{
+            margin-top: 30px;
+            margin-bottom: 30px; 
+        }
+        .classform{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            width: 450px;
+            height: auto;
+            border: 2px solid;
+            background-color: rgba(255, 255, 255, 0.943);
+            color: #04AA6D;
+            box-shadow:  2px 4px 34px 5px rgb(0, 0, 0,0.3);
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body style="background-color: #04AA6D; color:white;">
+    <h1 class="heading">Become a Scout</h1>
+    <div class="classform">
+    
+    <form action="" class="fm">
+        <label for="name1">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+        <input type="text" placeholder="Full name" name="name1" id="" style="width: 230px;
+            height: 30px;">
+        <br>
+        <br>
+        <label for="address1">Address &nbsp;&nbsp;&nbsp;:  </label>
+        <textarea name="address1" id="" rows="10" cols="30"></textarea>
+        <br><br>
+        <label for="dob">DOB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="Date" name="" id="" style="width: 230px;
+            height: 30px;">
+        <br><br>
+        <label for=""><strong>Gender</strong></label>
+        <br>
+        <input type="radio" name="gen">Male 
+        <br>
+        <input type="radio" name="gen" id="">Female 
+        <br>
+        <input type="radio" name="gen" id="">Parrot 
+        <br>
+        <br>
+        <label for=""><strong>Skills</strong></label>
+        <br>
+        <input type="checkbox" name="" id="">Leadership
+        <br>
+        <input type="checkbox" name="" id="">Agility
+        <br>
+        <input type="checkbox" name="" id="">Power
+        <br>
+        <input type="checkbox" name="" id="">Durability
+        <br>
+        <br>
+        <label for="">Prefered Titan</label>
+        <select name="Titans" id="">
+            <option value="">Choose...</option>
+            <option value="">Founding Titan</option>
+            <option value="">Attack Titan</option>
+            <option value="">Armored Titan</option>
+            <option value="">Beast Titan</option>            
+            <option value="">Colossal Titan</option>
+            <option value="">War Hammer Titan</option>
+            <option value="">Female Titan</option>
+            <option value="">Jaw Titan</option>
+        </select>
+        <br><br><br>
+        <div class="btn">
+            <button type="submit">Wait for Approval</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
