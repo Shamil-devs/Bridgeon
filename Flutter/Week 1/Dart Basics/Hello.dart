@@ -7,3 +7,4 @@ void main(){
   String a(String name)=>"hi $name";
   print(a("shamil"));
 }
+
